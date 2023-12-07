@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100o;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: aliceblue; */
+}
+.left
+{
+    height: 100%;
+    width: 50%;
+    background-color: antiquewhite;
+}
+.right{
+    height: 100%;
+    width: 70%;
+    color: white;
+    background-image: url(https://plus.unsplash.com/premium_photo-1684445034726-9475962b5535?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDh8TThqVmJMYlRSd3N8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    position: relative;
+    z-index: -999;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+.lan{
+    display: flex;
+    padding-left: 20%;
+    gap: 25%;
+}
+.left>h2{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.left>h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    padding-left: 40%;
+    padding-top: 10%;
+    line-height: 90px;
+    font-weight:900;
+}
+.left>p{
+    color: grey;
+    padding-left: 40%;
+}
+form{
+    padding-left:40% ;
+    
+}
+.one{
+    width: 130%;
+    padding: 5%;
+    padding-left:15% ;
+    text-decoration: none;
+    border: none;
+}
+.search{
+    transform: translateY(45px);
+}
+.two{
+    width: 150%;
+    padding: 11%;
+    padding-left:30% ;
+    text-decoration: none;
+     border: none;
+}
+.date1{
+    transform: translateY(45px);
+}
+.three{
+    width: 150%;
+    padding: 11%;
+    padding-left:30% ;
+    text-decoration: none;
+    border: none;
+}
+.date2{
+    transform: translateY(45px);
+}
+
+.second{
+    display: flex;
+    width: 110%;
+}
+.second-part2{
+    padding-left: 25%;
+}
+.third{
+    display: flex;
+    
+}
+.third-part1{
+padding-top: 5%;
+
+}
+.four{
+    width: 150%;
+    padding: 5%;
+    padding-left: 20%;
+}
+.person{
+    transform: translateY(40px);
+}
+.third-part2{
+    padding-left: 30%;
+    padding-top: 15%;
+    text-align: center;
+}
+.btn{
+    background-color: black;
+    color: white;
+    width: 300%;
+    height:100%;
+}
+.four{
+    text-decoration: none;
+     border: none;
+}
